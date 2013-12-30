@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40049B3113FDFC4500FA1042 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40049B3013FDFC4500FA1042 /* CustomCell.m */; };
+		4075412913FBB06900A435C0 /* SDImageView+SDWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4075411F13FBB06900A435C0 /* SDImageView+SDWebCache.m */; };
+		40A46BDC13FBAC6E00BE5757 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A46BDB13FBAC6E00BE5757 /* UIKit.framework */; };
+		40A46BDE13FBAC6E00BE5757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A46BDD13FBAC6E00BE5757 /* Foundation.framework */; };
+		40A46BE013FBAC6E00BE5757 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A46BDF13FBAC6E00BE5757 /* CoreGraphics.framework */; };
+		40A46BE613FBAC6E00BE5757 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40A46BE413FBAC6E00BE5757 /* InfoPlist.strings */; };
+		40A46BE813FBAC6E00BE5757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A46BE713FBAC6E00BE5757 /* main.m */; };
+		40A46BEC13FBAC6E00BE5757 /* SDWebDataTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A46BEB13FBAC6E00BE5757 /* SDWebDataTestAppDelegate.m */; };
+		40A46BEF13FBAC6E00BE5757 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A46BED13FBAC6E00BE5757 /* MainWindow.xib */; };
+		40A46BF213FBAC6F00BE5757 /* SDWebDataTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A46BF113FBAC6F00BE5757 /* SDWebDataTestViewController.m */; };
+		40A46BF513FBAC6F00BE5757 /* SDWebDataTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A46BF313FBAC6F00BE5757 /* SDWebDataTestViewController.xib */; };
+		6A2DC18B16314B77005F5BEB /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2DC18A16314B77005F5BEB /* CustomObject.m */; };
+		6A75BF631631631D00BE73F7 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A75BF611631631D00BE73F7 /* placeholder.png */; };
+		6A75BF641631631D00BE73F7 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A75BF621631631D00BE73F7 /* placeholder@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40049B2F13FDFC4500FA1042 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		40049B3013FDFC4500FA1042 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		4075411E13FBB06900A435C0 /* SDImageView+SDWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDImageView+SDWebCache.h"; sourceTree = "<group>"; };
+		4075411F13FBB06900A435C0 /* SDImageView+SDWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDImageView+SDWebCache.m"; sourceTree = "<group>"; };
+		40A46BD713FBAC6E00BE5757 /* SDWebDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDWebDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A46BDB13FBAC6E00BE5757 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		40A46BDD13FBAC6E00BE5757 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40A46BDF13FBAC6E00BE5757 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		40A46BE313FBAC6E00BE5757 /* SDWebDataTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDWebDataTest-Info.plist"; sourceTree = "<group>"; };
+		40A46BE513FBAC6E00BE5757 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40A46BE713FBAC6E00BE5757 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40A46BE913FBAC6E00BE5757 /* SDWebDataTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDWebDataTest-Prefix.pch"; sourceTree = "<group>"; };
+		40A46BEA13FBAC6E00BE5757 /* SDWebDataTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebDataTestAppDelegate.h; sourceTree = "<group>"; };
+		40A46BEB13FBAC6E00BE5757 /* SDWebDataTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebDataTestAppDelegate.m; sourceTree = "<group>"; };
+		40A46BEE13FBAC6E00BE5757 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		40A46BF013FBAC6F00BE5757 /* SDWebDataTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebDataTestViewController.h; sourceTree = "<group>"; };
+		40A46BF113FBAC6F00BE5757 /* SDWebDataTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebDataTestViewController.m; sourceTree = "<group>"; };
+		40A46BF413FBAC6F00BE5757 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SDWebDataTestViewController.xib; sourceTree = "<group>"; };
+		6A2DC18916314B77005F5BEB /* CustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomObject.h; sourceTree = "<group>"; };
+		6A2DC18A16314B77005F5BEB /* CustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomObject.m; sourceTree = "<group>"; };
+		6A75BF611631631D00BE73F7 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = SOURCE_ROOT; };
+		6A75BF621631631D00BE73F7 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40A46BD413FBAC6E00BE5757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A46BDC13FBAC6E00BE5757 /* UIKit.framework in Frameworks */,
+				40A46BDE13FBAC6E00BE5757 /* Foundation.framework in Frameworks */,
+				40A46BE013FBAC6E00BE5757 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4075411A13FBB06900A435C0 /* SDWebData_1.0.2 */ = {
+			isa = PBXGroup;
+			children = (
+				4075411E13FBB06900A435C0 /* SDImageView+SDWebCache.h */,
+				4075411F13FBB06900A435C0 /* SDImageView+SDWebCache.m */,
+				6A2DC18916314B77005F5BEB /* CustomObject.h */,
+				6A2DC18A16314B77005F5BEB /* CustomObject.m */,
+			);
+			path = SDWebData_1.0.2;
+			sourceTree = "<group>";
+		};
+		40A46BCC13FBAC6E00BE5757 = {
+			isa = PBXGroup;
+			children = (
+				40A46BE113FBAC6E00BE5757 /* SDWebDataTest */,
+				40A46BDA13FBAC6E00BE5757 /* Frameworks */,
+				40A46BD813FBAC6E00BE5757 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40A46BD813FBAC6E00BE5757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40A46BD713FBAC6E00BE5757 /* SDWebDataTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40A46BDA13FBAC6E00BE5757 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40A46BDB13FBAC6E00BE5757 /* UIKit.framework */,
+				40A46BDD13FBAC6E00BE5757 /* Foundation.framework */,
+				40A46BDF13FBAC6E00BE5757 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40A46BE113FBAC6E00BE5757 /* SDWebDataTest */ = {
+			isa = PBXGroup;
+			children = (
+				6A75BF611631631D00BE73F7 /* placeholder.png */,
+				6A75BF621631631D00BE73F7 /* placeholder@2x.png */,
+				4075411A13FBB06900A435C0 /* SDWebData_1.0.2 */,
+				40A46BEA13FBAC6E00BE5757 /* SDWebDataTestAppDelegate.h */,
+				40A46BEB13FBAC6E00BE5757 /* SDWebDataTestAppDelegate.m */,
+				40A46BED13FBAC6E00BE5757 /* MainWindow.xib */,
+				40A46BF013FBAC6F00BE5757 /* SDWebDataTestViewController.h */,
+				40A46BF113FBAC6F00BE5757 /* SDWebDataTestViewController.m */,
+				40A46BF313FBAC6F00BE5757 /* SDWebDataTestViewController.xib */,
+				40049B2F13FDFC4500FA1042 /* CustomCell.h */,
+				40049B3013FDFC4500FA1042 /* CustomCell.m */,
+				40A46BE213FBAC6E00BE5757 /* Supporting Files */,
+			);
+			path = SDWebDataTest;
+			sourceTree = "<group>";
+		};
+		40A46BE213FBAC6E00BE5757 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40A46BE313FBAC6E00BE5757 /* SDWebDataTest-Info.plist */,
+				40A46BE413FBAC6E00BE5757 /* InfoPlist.strings */,
+				40A46BE713FBAC6E00BE5757 /* main.m */,
+				40A46BE913FBAC6E00BE5757 /* SDWebDataTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40A46BD613FBAC6E00BE5757 /* SDWebDataTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A46BF813FBAC6F00BE5757 /* Build configuration list for PBXNativeTarget "SDWebDataTest" */;
+			buildPhases = (
+				40A46BD313FBAC6E00BE5757 /* Sources */,
+				40A46BD413FBAC6E00BE5757 /* Frameworks */,
+				40A46BD513FBAC6E00BE5757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebDataTest;
+			productName = SDWebDataTest;
+			productReference = 40A46BD713FBAC6E00BE5757 /* SDWebDataTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40A46BCE13FBAC6E00BE5757 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 40A46BD113FBAC6E00BE5757 /* Build configuration list for PBXProject "SDWebDataTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 40A46BCC13FBAC6E00BE5757;
+			productRefGroup = 40A46BD813FBAC6E00BE5757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40A46BD613FBAC6E00BE5757 /* SDWebDataTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40A46BD513FBAC6E00BE5757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A46BE613FBAC6E00BE5757 /* InfoPlist.strings in Resources */,
+				40A46BEF13FBAC6E00BE5757 /* MainWindow.xib in Resources */,
+				40A46BF513FBAC6F00BE5757 /* SDWebDataTestViewController.xib in Resources */,
+				6A75BF631631631D00BE73F7 /* placeholder.png in Resources */,
+				6A75BF641631631D00BE73F7 /* placeholder@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40A46BD313FBAC6E00BE5757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A46BE813FBAC6E00BE5757 /* main.m in Sources */,
+				40A46BEC13FBAC6E00BE5757 /* SDWebDataTestAppDelegate.m in Sources */,
+				40A46BF213FBAC6F00BE5757 /* SDWebDataTestViewController.m in Sources */,
+				4075412913FBB06900A435C0 /* SDImageView+SDWebCache.m in Sources */,
+				40049B3113FDFC4500FA1042 /* CustomCell.m in Sources */,
+				6A2DC18B16314B77005F5BEB /* CustomObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40A46BE413FBAC6E00BE5757 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40A46BE513FBAC6E00BE5757 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40A46BED13FBAC6E00BE5757 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40A46BEE13FBAC6E00BE5757 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		40A46BF313FBAC6F00BE5757 /* SDWebDataTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40A46BF413FBAC6F00BE5757 /* en */,
+			);
+			name = SDWebDataTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40A46BF613FBAC6F00BE5757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40A46BF713FBAC6F00BE5757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40A46BF913FBAC6F00BE5757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDWebDataTest/SDWebDataTest-Prefix.pch";
+				INFOPLIST_FILE = "SDWebDataTest/SDWebDataTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		40A46BFA13FBAC6F00BE5757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDWebDataTest/SDWebDataTest-Prefix.pch";
+				INFOPLIST_FILE = "SDWebDataTest/SDWebDataTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40A46BD113FBAC6E00BE5757 /* Build configuration list for PBXProject "SDWebDataTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A46BF613FBAC6F00BE5757 /* Debug */,
+				40A46BF713FBAC6F00BE5757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A46BF813FBAC6F00BE5757 /* Build configuration list for PBXNativeTarget "SDWebDataTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A46BF913FBAC6F00BE5757 /* Debug */,
+				40A46BFA13FBAC6F00BE5757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40A46BCE13FBAC6E00BE5757 /* Project object */;
+}
